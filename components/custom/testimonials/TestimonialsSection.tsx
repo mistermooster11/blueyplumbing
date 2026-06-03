@@ -58,7 +58,7 @@ export default function TestimonialsSection() {
       <div className="testimonials__container">
         {/* Left: 60% — header text */}
         <div className="testimonials__header">
-          <div className="testimonials__eyebrow">5★ Rated on Yelp</div>
+          <div className="testimonials__eyebrow">5★ Rated on Google</div>
           <h2 className="testimonials__heading">Trusted When It Matters Most</h2>
           <p className="testimonials__subtext">
             Homeowners and businesses across Menlo Park and the Bay Area Peninsula trust Bluey
@@ -83,7 +83,7 @@ export default function TestimonialsSection() {
                 {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
               </div>
               <p className="testimonials__count">
-                Based on <strong>7 reviews</strong>
+                Based on <strong>49 reviews</strong>
               </p>
             </div>
           </div>

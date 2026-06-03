@@ -51,26 +51,25 @@ export default function FleetSection() {
 
         {/* RIGHT — 3 images stacked */}
         <div className="fleet-section__images">
-          {/* TODO: Replace with Bluey Plumbing job/work photos */}
           <Image
-            src="/images/about-row.webp"
-            alt="Bluey Plumbing job site"
-            width={1024}
-            height={909}
+            src="/images/plumber-under-sink-repair-inspection.jpg"
+            alt="Bluey Plumbing plumber at work"
+            width={800}
+            height={534}
             className="fleet-section__img"
           />
           <Image
-            src="/images/service-1.png"
-            alt="Bluey Plumbing plumbing work"
-            width={1024}
-            height={683}
+            src="/images/plumber-installing-wall-mounted-sink-bathroom.jpg"
+            alt="Bluey Plumbing sink installation"
+            width={800}
+            height={534}
             className="fleet-section__img"
           />
           <Image
-            src="/images/service-2.png"
-            alt="Bluey Plumbing installation"
-            width={1024}
-            height={541}
+            src="/images/plumber-installing-drain-pipe-closeup.jpg"
+            alt="Bluey Plumbing drain installation"
+            width={800}
+            height={534}
             className="fleet-section__img"
           />
         </div>

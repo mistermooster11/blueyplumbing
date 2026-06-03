@@ -26,9 +26,9 @@ export default function WaterServicesPage() {
       />
       <ServiceDetailSection
         activeService="Water Services & Installations"
-        sidebarImage="/images/service-3.webp"
-        sidebarImageWidth={535}
-        sidebarImageHeight={643}
+        sidebarImage="/images/modern-boiler-system-installation-brass-pipes.jpg"
+        sidebarImageWidth={800}
+        sidebarImageHeight={534}
         heading="Water Heater, Water Lines & More"
         intro={[
           "Whether your water heater failed overnight or your water pressure has been dropping for months, Bluey Plumbing & Rooter diagnoses the problem and gives you a clear fix — fast. We install and service tank and tankless water heaters, repair and replace water lines, and handle repiping for older Peninsula homes.",

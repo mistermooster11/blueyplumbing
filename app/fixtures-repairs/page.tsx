@@ -26,9 +26,9 @@ export default function FixturesRepairsPage() {
       />
       <ServiceDetailSection
         activeService="Fixtures Repairs & Installation"
-        sidebarImage="/images/service-4.webp"
-        sidebarImageWidth={535}
-        sidebarImageHeight={643}
+        sidebarImage="/images/plumber-installing-toilet-repair-service.jpg"
+        sidebarImageWidth={800}
+        sidebarImageHeight={534}
         heading="Fixture Installation & Repair — Peninsula-Wide"
         intro={[
           "Leaky faucets, running toilets, and broken fixtures waste water and drive up your bill. Bluey Plumbing & Rooter repairs and installs the full range of plumbing fixtures — toilets, faucets, sinks, showers, dishwashers, and washing machine connections.",

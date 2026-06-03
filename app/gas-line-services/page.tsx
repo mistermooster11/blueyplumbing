@@ -26,9 +26,9 @@ export default function GasLineServicesPage() {
       />
       <ServiceDetailSection
         activeService="Gas Line Services & Installation"
-        sidebarImage="/images/service-2.png"
-        sidebarImageWidth={535}
-        sidebarImageHeight={643}
+        sidebarImage="/images/industrial-pipe-system-valves-blue-red.jpg"
+        sidebarImageWidth={800}
+        sidebarImageHeight={534}
         heading="Gas Line Work — Licensed & Code-Compliant"
         intro={[
           "Gas line work requires a licensed plumber — not a handyman. Bluey Plumbing & Rooter installs and repairs natural gas lines for ranges, dryers, water heaters, fireplaces, and whole-home systems throughout the Peninsula.",

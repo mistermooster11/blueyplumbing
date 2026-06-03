@@ -27,9 +27,9 @@ export default function DrainServicesPage() {
       />
       <ServiceDetailSection
         activeService="Drain Services & Installations"
-        sidebarImage="/images/service-1.png"
-        sidebarImageWidth={535}
-        sidebarImageHeight={643}
+        sidebarImage="/images/plumber-installing-drain-pipe-closeup.jpg"
+        sidebarImageWidth={800}
+        sidebarImageHeight={534}
         heading="Drain Clearing & Installation — Bay Area"
         intro={[
           "From slow kitchen sinks to full main sewer line backups, Bluey Plumbing & Rooter handles every drain job on the Peninsula. We diagnose first, show you exactly what's wrong, then clear it using the right method — snake, hydro jet, or camera-guided repair.",

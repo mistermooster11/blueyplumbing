@@ -80,10 +80,10 @@ export default function AboutSection() {
         <div className="about__media">
           <div className="about__img-wrap">
             <Image
-              src="/images/about-row.webp"
+              src="/images/plumber-installing-kitchen-sink-faucet.jpg"
               alt="Bluey Plumbing team at work"
-              width={690}
-              height={613}
+              width={800}
+              height={534}
               className="about__img"
             />
             <div className="about__exp-box w-full! md:w-fit! flex! flex-row! gap-10!">

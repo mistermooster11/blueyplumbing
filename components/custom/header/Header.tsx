@@ -66,7 +66,7 @@ export default function Header() {
         <div className="header__logo">
           <Link href="/">
             <Image
-              src="/bluey-plumbing-logo.webp"
+              src="/bluey-plumbing-logo.png"
               alt="Bluey Plumbing & Rooter"
               width={160}
               height={80}

@@ -10,12 +10,12 @@ export default function Footer() {
         <div className="footer__brand">
           <Link href="/">
             <Image
-              src="/images/logo-image-50.png"
+              src="/bluey-plumbing-logo.png"
               alt="Bluey Plumbing & Rooter Logo"
-              width={239}
-              height={58}
+              width={200}
+              height={100}
               className="footer__logo"
-              style={{ height: "auto" }}
+              style={{ height: "64px", width: "auto" }}
             />
           </Link>
           <p className="footer__desc">

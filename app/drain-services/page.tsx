@@ -19,6 +19,7 @@ export default function DrainServicesPage() {
       <PageHeroSection
         title="Drain Services & Installations"
         subtitle="Drain clearing, hydro jetting, sewer line repair, and camera inspection — residential and commercial across the Bay Area Peninsula."
+        backgroundImage="/images/plumber-installing-sink-p-trap-under-basin.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page" },

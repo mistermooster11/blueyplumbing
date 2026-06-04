@@ -30,9 +30,6 @@ export default function NeedServicesSection() {
   return (
     <section className="need-services" ref={sectionRef}>
       <div className="need-services__inner">
-        <Link href="/contact-us" className="need-services__btn">
-          Get a Free Estimate
-        </Link>
         <h2 className="need-services__heading">
           Need a Licensed Plumber
           <br />in the Bay Area?
@@ -41,6 +38,9 @@ export default function NeedServicesSection() {
           Call or text (650) 669-0007 — we&apos;ll give you an honest assessment and a clear price
           before <br />anything starts. Serving Menlo Park and the Peninsula.
         </p>
+        <Link href="/contact-us" className="need-services__btn">
+          Get a Free Estimate
+        </Link>
       </div>
     </section>
   );

@@ -18,6 +18,7 @@ export default function FixturesRepairsPage() {
       <PageHeroSection
         title="Fixtures Repairs & Installation"
         subtitle="Toilets, faucets, sinks, showers, and appliance installation — done right and priced upfront across the Bay Area Peninsula."
+        backgroundImage="/images/plumber-installing-toilet-bathroom-fixture.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page" },

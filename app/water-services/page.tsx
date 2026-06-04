@@ -18,6 +18,7 @@ export default function WaterServicesPage() {
       <PageHeroSection
         title="Water Services & Installations"
         subtitle="Water heater installation and repair, water line service, repiping, and leak detection across Menlo Park and the Bay Area Peninsula."
+        backgroundImage="/images/plumber-hands-installing-brass-pipe-connector.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page" },

@@ -18,6 +18,7 @@ export default function GasLineServicesPage() {
       <PageHeroSection
         title="Gas Line Services & Installation"
         subtitle="Gas line installation, repair, and pressure testing for appliances, water heaters, and whole-home systems across the Bay Area Peninsula."
+        backgroundImage="/images/plumber-adjusting-water-pressure-gauges-brass.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page" },

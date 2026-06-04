@@ -20,6 +20,7 @@ export default function AboutPage() {
       <PageHeroSection
         title="About Us"
         subtitle="Licensed, insured Bay Area plumbers based in Menlo Park — serving the Peninsula since day one."
+        backgroundImage="/images/modern-black-kitchen-faucet-chrome.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "About Us" },

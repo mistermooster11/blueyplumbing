@@ -1233,18 +1233,19 @@
 
 .need-services__btn {
   display: inline-block;
-  background-color: var(--color-accent);
-  color: var(--color-white);
+  background-color: var(--color-white);
+  color: var(--color-accent);
   font-size: 13px;
   font-weight: 700;
   padding: 12px 40px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  transition: opacity 0.2s;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .need-services__btn:hover {
-  opacity: 0.85;
+  background-color: var(--color-accent);
+  color: var(--color-white);
 }
 
 /* ─── FAQ SECTION ────────────────────────────────── */

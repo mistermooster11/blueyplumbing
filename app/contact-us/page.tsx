@@ -16,6 +16,7 @@ export default function ContactPage() {
       <PageHeroSection
         title="Contact Us"
         subtitle="Call (650) 669-0007 or fill out the form — we'll give you a clear price before anything starts."
+        backgroundImage="/images/plumber-installing-dishwasher-kitchen.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Contact" },

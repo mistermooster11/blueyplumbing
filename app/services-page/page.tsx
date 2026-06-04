@@ -18,6 +18,7 @@ export default function ServicesPage() {
       <PageHeroSection
         title="Our Services"
         subtitle="Drain services, gas lines, water heaters, and fixture work — residential and commercial — across Menlo Park and the Bay Area Peninsula."
+        backgroundImage="/images/plumber-adjusting-brass-valve-with-wrench.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },

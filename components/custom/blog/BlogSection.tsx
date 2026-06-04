@@ -44,7 +44,7 @@ export default function BlogSection() {
       </div>
 
       <div className="blog__grid">
-        {blogPosts.map((post, i) => (
+        {blogPosts.slice(0, 2).map((post, i) => (
           <article key={i} className="blog-card">
             <div className="blog-card__media">
               <Link href={post.slug}>

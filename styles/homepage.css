@@ -757,7 +757,7 @@
 /* ─── CTA FORM SECTION ───────────────────────────── */
 .cta-form {
   position: relative;
-  background-image: url("/images/cta-bg.png");
+  background-image: url("/images/plumber-under-sink-repair-toolbox.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1186,7 +1186,7 @@
 .need-services {
   position: relative;
   background-color: var(--color-secondary);
-  background-image: url('/images/need-services-bg.png');
+  background-image: url('/images/plumber-installing-vanity-cabinet-bathroom.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

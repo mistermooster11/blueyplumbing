@@ -349,12 +349,12 @@
   overflow: hidden;
 }
 
-/* Background image */
+/* Background image — override per-page via --page-hero-bg CSS variable */
 .page-hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("/wp-assets/Title-Background-Image-scaled.webp");
+  background-image: var(--page-hero-bg, url("/wp-assets/Title-Background-Image-scaled.webp"));
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

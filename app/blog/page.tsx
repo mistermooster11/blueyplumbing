@@ -17,6 +17,7 @@ export default function BlogPage() {
       <PageHeroSection
         title="Blog"
         subtitle="Plumbing tips, service guides, and Bay Area homeowner advice from the Bluey Plumbing team."
+        backgroundImage="/images/modern-kitchen-sink-faucet-installation.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Blog" },

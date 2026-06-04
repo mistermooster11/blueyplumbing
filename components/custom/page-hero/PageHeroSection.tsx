@@ -12,12 +12,14 @@ interface PageHeroSectionProps {
   title: string;
   subtitle?: string;
   breadcrumbs?: Breadcrumb[];
+  backgroundImage?: string;
 }
 
 export default function PageHeroSection({
   title,
   subtitle,
   breadcrumbs,
+  backgroundImage,
 }: PageHeroSectionProps) {
   const innerRef = useRef<HTMLDivElement>(null);
 
@@ -42,7 +44,10 @@ export default function PageHeroSection({
   }, []);
 
   return (
-    <section className="page-hero">
+    <section
+      className="page-hero"
+      style={backgroundImage ? { '--page-hero-bg': `url('${backgroundImage}')` } as React.CSSProperties : undefined}
+    >
       <div className="page-hero__inner" ref={innerRef}>
         {breadcrumbs && breadcrumbs.length > 0 && (
           <nav className="page-hero__breadcrumb" aria-label="Breadcrumb">

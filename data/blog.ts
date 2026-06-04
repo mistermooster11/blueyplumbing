@@ -12,7 +12,7 @@ export type BlogPost = {
 export const blogPosts: BlogPost[] = [
   {
     slug: "/blog/why-bay-area-homes-get-more-drain-clogs/",
-    image: "/images/blog-1.png",
+    image: "/images/plumber-installing-sink-p-trap-wrench.jpg",
     date: "15",
     monthYear: "May '26",
     category: "Drain Services",
@@ -23,7 +23,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "/blog/gas-line-leak-warning-signs/",
-    image: "/images/blog-2.png",
+    image: "/images/modern-chrome-faucet-flowing-water-sink.jpg",
     date: "08",
     monthYear: "May '26",
     category: "Gas Line Services",

@@ -4,6 +4,7 @@ import "@/styles/common.css";
 import Header from "@/components/custom/header/Header";
 import Footer from "@/components/custom/footer/Footer";
 import PageTransition from "@/components/custom/page-transition/PageTransition";
+import SalePopup from '@/components/custom/popup/SalePopup'
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
 
@@ -80,6 +81,7 @@ export default function RootLayout({
       </head>
       <body>
         <PageTransition />
+        <SalePopup businessName="Bluey Plumbing & Rooter" expiryDate="June 15, 2026" trade="plumbers" />
         <Header />
         <main>{children}</main>
         <Footer />

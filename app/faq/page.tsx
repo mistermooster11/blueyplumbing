@@ -18,6 +18,7 @@ export default function FAQPage() {
       <PageHeroSection
         title="Frequently Asked Questions"
         subtitle="Everything you need to know about our services, pricing, and process."
+        backgroundImage="/images/under-sink-p-trap-plumbing-pipes.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "FAQ" },

@@ -81,7 +81,7 @@ export default function RootLayout({
       </head>
       <body>
         <PageTransition />
-        <SalePopup businessName="Bluey Plumbing & Rooter" expiryDate="June 15, 2026" trade="plumbers" />
+        <SalePopup businessName="Bluey Plumbing & Rooter" expiryDate="June 20, 2026" trade="plumbers" />
         <Header />
         <main>{children}</main>
         <Footer />
